@@ -36,4 +36,4 @@ services:
     image: certbot
     volumes:
       - ./certbot:/etc/letsencrypt
-    command: certonly --webroot --webroot-path=/etc/letsencrypt --email your-email@example.com --agree-tos --no-eff-email --staging -d your-domain.com
+    command: certonly --webroot --webroot-path=/etc/letsencrypt --email eryaz.hakan@std.izu.edu.tr --agree-tos --no-eff-email -d 137.117.191.35
